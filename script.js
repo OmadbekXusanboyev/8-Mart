@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
          loader.style.display = 'none';
          content.classList.remove('hidden');
          content.style.opacity = 1;
-       }, 800);
+       }, 10);
      }, 2000); // 2 soniya davomida loader ko'rsatiladi
    
      // Audio boshqaruvi
