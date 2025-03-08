@@ -94,3 +94,5 @@ document.addEventListener('DOMContentLoaded', () => {
        url('https://source.unsplash.com/random/1920x1080/${bgImages[Math.floor(Math.random() * bgImages.length)]}')`;
   }, 10000);
 });
+
+

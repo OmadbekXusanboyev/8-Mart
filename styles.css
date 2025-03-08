@@ -278,6 +278,19 @@
 .scroll-down {
   display: none;
 }
+.social-links{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-links a img{
+  width: 60px;
+  height: 60px;
+}
+.social-links .telegram{
+  width: 100px;
+  height: 100px;
+}
 
 .shadow:hover {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
