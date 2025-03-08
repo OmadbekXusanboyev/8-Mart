@@ -1,80 +1,83 @@
-<!DOCTYPE html>
-<html lang="uz">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>8-Mart Siz Uchun Mahsus</title>
-  <link rel="icon" type="img" href="https://pngimg.com/d/8march_PNG39635.png">
-  <!-- Font Awesome ikonkalari -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <!-- Loader -->
-  <div id="loader">
-    <div class="spinner"></div>
-  </div>
-  
-  <!-- Asosiy kontent (loader o'chgandan keyin ko'rinadi) -->
-  <div id="content" class="hidden">
-    <!-- Audio elementi (native boshqaruvlar yashirilgan) -->
-    <audio id="background-music" loop>
-      <source src="./audio/3e02ec9e-399b-43e6-9ec2-a5dee4b9eb73.m4a" type="audio/mpeg">
-      Brauzeringiz audio elementlarni qo'llamaydi
-    </audio>
+  <!DOCTYPE html>
+  <html lang="uz">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8-Mart Siz Uchun Mahsus</title>
+    <link rel="icon" type="img" href="https://pngimg.com/d/8march_PNG39635.png">
+    <!-- Font Awesome ikonkalari -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!-- Loader -->
+    <div id="loader">
+      <div class="spinner"></div>
+    </div>
+    
+    <!-- Asosiy kontent (loader o'chgandan keyin ko'rinadi) -->
+    <div id="content" class="hidden">
+      <!-- Audio elementi (native boshqaruvlar yashirilgan) -->
+      <audio id="background-music" loop>
+        <source src="./audio/3e02ec9e-399b-43e6-9ec2-a5dee4b9eb73.m4a" type="audio/mpeg">
+        Brauzeringiz audio elementlarni qo'llamaydi
+      </audio>
 
-    <!-- Maxsus audio boshqaruv tugmasi -->
-    <div id="play-btn" class="audio-control">
-      <i class="fas fa-play"></i>
+      <!-- Maxsus audio boshqaruv tugmasi -->
+      <div id="play-btn" class="audio-control">
+        <i class="fas fa-play"></i>
+      </div>
+
+      <!-- Hero bo'limi -->
+      <section class="hero">
+      <h1 class="animate">8-Mart Muborak Bolsin! 🌸</h1>
+      <p class="shadow">Aziz Ona, Opalar va Qizlar! Sizning mardlik, mehribonlik va go'zalligingiz dunyoni yorqin qiladi. Bu maxsus kuningizda sizga chin qalbdan muborakbod etaman!</p>
+      <div class="scroll-down">
+        <i class="fa-solid fa-angles-down fa-bounce"></i>
+      </div>
+      </section>
+
+      <!-- Tabriklar / Kartalar bo'limi -->
+      <section class="congrats-section">
+        <div class="cards-container">
+          <!-- Kartalar JavaScript orqali qo'shiladi -->
+        </div>
+      </section>
+
+      <!-- Video bo'limi -->
+      <section class="video-section">
+        <div class="video-wrapper">
+          <iframe width="100%" height="450" src="https://www.youtube.com/embed/fEIvjz_h9Gs?si=HapFtGG7V0SktpW8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </section>
+
+      <!-- She'r bo'limi -->
+      <section class="poem-section">
+        <h2>Sizga Bag'ishlangan She'r</h2>
+        <p>
+          Bahor mayli gullagan paytda,<br>
+          Xotin-qizlar bayrami kelar.<br>
+          Siz - hayotning ma'nosidir,<br>
+          Yuraklarda doim yashar mehringiz.<br><br>
+          Tabiat sizga bergan go'zallik,<br>
+          Yashnasin abadiy yuringizda.<br>
+          8-Mart - faqat bahona,<br>
+          Hurmatimiz doim sizgadir!
+        </p>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <div class="social-links">
+          <a href="https://www.instagram.com/omad_coder_07?igsh=MXAxM2R6Y2hpNG54YQ==" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://t.me/XusanboyevOmadbek" target="_blank"><i class="fab fa-telegram"></i></a>
+          <a href="tel:+998934434742"><i class="fas fa-phone"></i></a>
+        </div>
+        <p>© 2025 8-Mart Uchun. Barcha Huquqlar Himoyalangan</p>
+        <p class="coder">Omad<span>Coder</span></p>
+      </footer>
     </div>
 
-    <!-- Hero bo'limi -->
-    <section class="hero">
-     <h1 class="animate">8-Mart Muborak Bolsin! 🌸</h1>
-     <p class="shadow">Aziz Ona, Opalar va Qizlar! Sizning mardlik, mehribonlik va go'zalligingiz dunyoni yorqin qiladi. Bu maxsus kuningizda sizga chin qalbdan muborakbod etaman!</p>
-    </section>
-
-    <!-- Tabriklar / Kartalar bo'limi -->
-    <section class="congrats-section">
-      <div class="cards-container">
-        <!-- Kartalar JavaScript orqali qo'shiladi -->
-      </div>
-    </section>
-
-    <!-- Video bo'limi -->
-    <section class="video-section">
-      <div class="video-wrapper">
-        <iframe width="100%" height="450" src="https://www.youtube.com/embed/fEIvjz_h9Gs?si=HapFtGG7V0SktpW8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      </div>
-    </section>
-
-    <!-- She'r bo'limi -->
-    <section class="poem-section">
-      <h2>Sizga Bag'ishlangan She'r</h2>
-      <p>
-        Bahor mayli gullagan paytda,<br>
-        Xotin-qizlar bayrami kelar.<br>
-        Siz - hayotning ma'nosidir,<br>
-        Yuraklarda doim yashar mehringiz.<br><br>
-        Tabiat sizga bergan go'zallik,<br>
-        Yashnasin abadiy yuringizda.<br>
-        8-Mart - faqat bahona,<br>
-        Hurmatimiz doim sizgadir!
-      </p>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-      <div class="social-links">
-        <a href="https://www.instagram.com/omad_coder_07?igsh=MXAxM2R6Y2hpNG54YQ==" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://t.me/XusanboyevOmadbek" target="_blank"><i class="fab fa-telegram"></i></a>
-        <a href="tel:+998934434742"><i class="fas fa-phone"></i></a>
-      </div>
-      <p>© 2025 8-Mart Uchun. Barcha Huquqlar Himoyalangan</p>
-      <p class="coder">Omad<span>Coder</span></p>
-    </footer>
-  </div>
-
-  <script src="script.js"></script>
-</body>
-</html>
+    <script src="script.js"></script>
+  </body>
+  </html>
